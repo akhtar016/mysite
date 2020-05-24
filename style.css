@@ -74,8 +74,6 @@ nav a:hover {
 .center-item {
 text-align: center;
 font-family: Raleway,sans-serif;
-border: 2px solid black;
-box-sizing: border-box;
 padding: 10px 3px;
 }
 
@@ -99,4 +97,10 @@ padding: 10px 3px;
 footer {
   background-color: black;
     height: 700px;
+}
+
+i {
+  font-size: 50px;
+  color: gray;
+  margin-bottom: 20px;
 }
