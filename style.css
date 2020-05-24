@@ -6,7 +6,7 @@
 
 header {
   height: 100vh;
-  background-color: black;
+  background-color:#252934;
 }
 
 header h1 {
@@ -28,11 +28,11 @@ span {
 }
 
 nav {
-  background-color: black;
+  background-color:#1B242F;
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 0.25px solid #565656;
-  border-bottom: 3px solid #008b8b;
+  border-bottom: 2px solid #008b8b;
 }
 
 nav a {
@@ -52,9 +52,10 @@ nav a:hover {
 
 
 .about {
-  height: 700px;
+  height: max-content;
   margin-top: 50px;
   background-color: #ffffff;
+  margin-bottom: 50px;
 }
 
 #abt {
@@ -103,4 +104,45 @@ i {
   font-size: 50px;
   color: gray;
   margin-bottom: 20px;
+}
+
+.col-5, .col-7 {
+  margin-top: 50px;
+}
+
+
+.col-7 {
+  padding: 20px;
+}
+
+.col-5 img {
+  margin-bottom: 15px;
+}
+
+
+#aNone {
+  color: #179AE9;
+}
+
+#aNone:hover {
+  text-decoration: none;
+}
+
+.skill-text {
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: Raleway, sans-serif;
+  color: gray;
+}
+
+.percentage-text {
+  color: gray;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.progress {
+  margin: 15px;
 }
