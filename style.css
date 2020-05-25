@@ -73,8 +73,8 @@ nav a:hover {
 .contact {
   height: max-content;
   padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: black;
+  padding-bottom: 100px;
+  background-color: #252934;
 }
 
 
@@ -181,5 +181,24 @@ i {
 form {
   padding-top: 15px;
 }
+
+footer {
+  height: 150px;
+  background-color: #1B242F;
+}
+
+.card a {
+  color: black;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 
