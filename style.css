@@ -49,8 +49,6 @@ nav a:hover {
     color: salmon;
 }
 
-
-
 .about {
   height: max-content;
   margin-top: 50px;
@@ -65,7 +63,20 @@ nav a:hover {
   background-color: #F5F5F5;
 }
 
-#abt, #project {
+.blog {
+  height: max-content;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #FFFFFF;
+}
+
+.contact {
+  height: 700px;
+  background-color: darkorchid;
+}
+
+
+#abt, #project, #blogs {
   color: #45474A;
   font-weight: bold;
 }
@@ -87,15 +98,6 @@ padding: 10px 3px;
   color: gray;
 }
 
-.blog {
-  height: 700px;
-  background-color: darkgoldenrod;
-}
-
-.contact {
-  height: 700px;
-  background-color: darkorchid;
-}
 
 
 
@@ -159,4 +161,7 @@ i {
   height: 150px;
 }
 
+.card-group {
+  margin-top: 50px;
+}
 
