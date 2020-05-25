@@ -58,8 +58,15 @@ nav a:hover {
   margin-bottom: 50px;
 }
 
-#abt {
-  color: #222831;
+.portfolio {
+  height: max-content;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #F5F5F5;
+}
+
+#abt, #project {
+  color: #45474A;
   font-weight: bold;
 }
 
@@ -67,10 +74,7 @@ nav a:hover {
   margin-top: 50px;
 }
 
-.portfolio {
-  height: 700px;
-  background-color: darkcyan;
-}
+
 
 .center-item {
 text-align: center;
@@ -146,3 +150,13 @@ i {
 .progress {
   margin: 15px;
 }
+
+.card {
+  margin: 20px;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+
