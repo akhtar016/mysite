@@ -12,8 +12,12 @@
     <link rel="icon" href="./icon/favicon.ico">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <script src="font.js"></script>
-
     <link rel="stylesheet" href="./fontawesome/css/all.css" />
+
+
+
+
+    
   </head>
   <body>
     <!-- Heading Part Starts -->
@@ -34,17 +38,22 @@
       </div>
     </header>
 
+
     <!-- Navbar Part Starts -->
 
-    <nav class="nav sticky-top">
-      <div class="container-fluid text-uppercase">
-        <a href="#header">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+    <div class="topnav sticky-top" id="myTopnav" >
+        <div class="container">
+          <a href="#header" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i id="navIcon" class="fa fa-bars"></i>
+          </a>
+        </div>
+     
+    </div>
 
     <!-- About Me Part Starts -->
     <section class="about container" id="about">
@@ -685,5 +694,21 @@
         <small class="text-white">Nayem Khan © <span>2020</span></small>
       </div>
     </footer>
+
+
+
+
+
+    <script>
+     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+      </script>
   </body>
 </html>
