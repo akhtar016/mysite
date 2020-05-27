@@ -4,10 +4,29 @@
   scroll-behavior: smooth;
 }
 
-#home {
+
+#home{
   height: 100vh;
   background-color:#252934;
+  
 }
+
+#particles-js {
+  width: 100%;
+  background: #252934;
+}
+
+#div {
+  position: absolute;
+}
+
+header h1 {
+  font-family: Raleway;
+  color: white;
+  font-weight: 500;
+
+}
+
 
 #home h1 {
   font-family: Raleway;
