@@ -5,14 +5,9 @@
 }
 
 
-#home{
-  height: 100vh;
-  background-color:#252934;
-  
-}
-
-#particles-js {
+#home {
   width: 100%;
+  height: 100vh;
   background: #252934;
 }
 
