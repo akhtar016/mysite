@@ -219,10 +219,23 @@ footer {
   color: tomato;
 }
 
+#my-pic {
+  margin-bottom: 20px;
+}
+
+
+
 
 
 
 /* New Section */
+
+.active-item {
+  text-decoration: none;
+  border-bottom: 2px solid #49b9e6;
+  background: #626a6e;
+  color: salmon;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -234,9 +247,9 @@ footer {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: whitesmoke;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -262,10 +275,10 @@ footer {
   
 }
 
-.active-item {
-  text-decoration: none;
-  background-color: gray;
-}
+
+
+
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 774px) {
