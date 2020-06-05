@@ -4,7 +4,6 @@
   scroll-behavior: smooth;
 }
 
-
 #home {
   width: 100%;
   height: 100vh;
@@ -14,14 +13,6 @@
 #div {
   position: absolute;
 }
-
-header h1 {
-  font-family: Raleway;
-  color: white;
-  font-weight: 500;
-
-}
-
 
 #home h1 {
   font-family: Raleway;
@@ -39,28 +30,6 @@ span {
 
 .btn {
     margin-top: 10px;
-}
-
-nav {
-  background-color:#1B242F;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-top: 0.25px solid #565656;
-  border-bottom: 2px solid #008b8b;
-}
-
-nav a {
-    color: white;
-    font-family: Raleway;
-    font-weight: 500;
-    font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-nav a:hover {
-    text-decoration: none;
-    color: salmon;
 }
 
 .about {
@@ -107,7 +76,6 @@ nav a:hover {
 }
 
 
-
 .center-item {
 text-align: center;
 font-family: Raleway,sans-serif;
@@ -137,7 +105,6 @@ i {
   margin-top: 50px;
 }
 
-
 .col-7 {
   padding: 20px;
 }
@@ -145,7 +112,6 @@ i {
 .col-5 img {
   margin-bottom: 15px;
 }
-
 
 #aNone {
   color: #179AE9;
@@ -210,16 +176,11 @@ footer {
   text-decoration: none;
 }
 
-.active {
-  color: tomato;
-}
+
 
 #my-pic {
   margin-bottom: 20px;
 }
-
-
-
 
 
 
@@ -229,7 +190,7 @@ footer {
   text-decoration: none;
   border-bottom: 2px solid #49b9e6;
   background: #626a6e;
-  color: salmon;
+
 }
 
 /* Add a black background color to the top navigation */
