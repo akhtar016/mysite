@@ -186,14 +186,14 @@ footer {
 /* New Section */
 
 .active-item {
-  text-decoration: none;
   border-bottom: 2px solid #ecae02;
 }
 
 .bg-nav {
-  background-color: #333;
+  background-color: #333333;
 }
 
 nav div a {
-  font-size: 20px;
+  font-size: 18px;
 }
+
