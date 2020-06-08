@@ -1,5 +1,5 @@
 function onScroll(event) {
-    var sections = document.querySelectorAll("#menu-center a");
+    var sections = document.querySelectorAll("nav div a");
     var scrollPos =
       window.pageYOffset ||
       document.documentElement.scrollTop ||
@@ -14,7 +14,7 @@ function onScroll(event) {
         refElement.offsetTop + refElement.offsetHeight > scrollPos
       ) {
         document
-          .querySelector("#menu-center a")
+          .querySelector("nav div a")
           .classList.remove("active-item");
         currLink.classList.add("active-item");
       } else {
