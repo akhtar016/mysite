@@ -16,13 +16,17 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./icon/favicon.ico" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./fontawesome/css/all.css" />
   </head>
   <body>
-
     <header id="home" class="d-flex justify-content-center align-items-center">
-
       <div class="header-section" id="div">
         <h1>Hello, I'm <span>Nayem Khan.</span></h1>
         <h1>I'm a front-end web developer.</h1>
@@ -30,14 +34,48 @@
           View My Work
         </a>
       </div>
-  
-
     </header>
-
 
     <!-- Navbar Part Starts -->
 
-    <div class="topnav sticky-top" id="myTopnav">
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-nav ">
+          <div class="container">
+          <button
+            class="navbar-toggler bg-secondary ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active text-white mr-2" href="#home"
+                >Home<span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link text-white mr-2" href="#about">About</a>
+              <a class="nav-item nav-link text-white mr-2" href="#portfolio">Portfolio</a>
+              <a class="nav-item nav-link text-white mr-2" href="#blog">Blog</a>
+              <a class="nav-item nav-link text-white mr-2" href="#contact">Contact</a>
+              <a
+                class="nav-item nav-link text-white"
+                href="./files/Akhtar_WEB_CV.pdf"
+                download
+              >
+                Resume
+              </a>
+            </div>
+          </div>
+        </div>
+        </nav>
+      </div>
+  
+
+    <!-- <div class="topnav" id="myTopnav">
       <div class="container" id="menu-center">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -45,13 +83,13 @@
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
         <a href="./files/Akhtar_WEB_CV.pdf" download>
-         Resume
+          Resume
         </a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i id="navIcon" class="fa fa-bars"></i>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <!-- About Me Part Starts -->
     <section class="about container" id="about">
@@ -88,7 +126,10 @@
           <div class="center-item">
             <i class="far fa-lightbulb"></i>
             <h4>Intuitive</h4>
-            <p>Strong preference for easy to use, intuitive UX/UI. Good user experience expected.</p>
+            <p>
+              Strong preference for easy to use, intuitive UX/UI. Good user
+              experience expected.
+            </p>
           </div>
         </div>
 
@@ -113,7 +154,8 @@
           class="d-flex align-items-center justify-content-between col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5"
         >
           <div class="center-item">
-            <img id="my-pic"
+            <img
+              id="my-pic"
               src="https://avatars2.githubusercontent.com/u/43480788?s=460&u=39ad7a57a7c5da1477395118dc4a16f5b6f6f205&v=4"
               alt="picture of nayem"
               class="rounded-circle"
@@ -422,10 +464,7 @@
         <h1 id="project" class="text-uppercase">Projects</h1>
       </div>
 
-      
-
       <div class="card-group container">
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -434,7 +473,10 @@
           />
           <div class="card-body text-center">
             <h5 class="card-title font-weight-bold">Red Onion Foods</h5>
-            <p class="card-text">React, Stripe.js, Node.js, HTML, CSS, BOOTSTRAP, Firebase Authentication</p>
+            <p class="card-text">
+              React, Stripe.js, Node.js, HTML, CSS, BOOTSTRAP, Firebase
+              Authentication
+            </p>
             <a
               href="https://github.com/akhtar016/red-onion"
               target="_blank"
@@ -458,7 +500,10 @@
           />
           <div class="card-body text-center">
             <h5 class="card-title font-weight-bold">Power X GYM</h5>
-            <p class="card-text">React, Node.js, MongoDB, Stripe.js , HTML, CSS, BOOTSTRAP, Firebase Hosting.</p>
+            <p class="card-text">
+              React, Node.js, MongoDB, Stripe.js , HTML, CSS, BOOTSTRAP,
+              Firebase Hosting.
+            </p>
             <a
               href="https://github.com/akhtar016/power-x-gym"
               target="_blank"
@@ -474,8 +519,6 @@
           </div>
         </div>
 
-
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -484,7 +527,10 @@
           />
           <div class="card-body text-center">
             <h5 class="card-title font-weight-bold">Doctor's Portal</h5>
-            <p class="card-text">React, Node.js, MongoDB, Material-UI, HTML, CSS, BOOTSTRAP, Firebase Hosting. </p>
+            <p class="card-text">
+              React, Node.js, MongoDB, Material-UI, HTML, CSS, BOOTSTRAP,
+              Firebase Hosting.
+            </p>
             <a
               href="https://github.com/akhtar016/doctors-portal"
               target="_blank"
@@ -499,15 +545,9 @@
             >
           </div>
         </div>
-
-      
-
-     
       </div>
 
       <div class="card-group container">
-
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -515,8 +555,13 @@
             alt="Card image cap"
           />
           <div class="card-body text-center">
-            <h5 class="card-title font-weight-bold">Ema-John E-commerce Site</h5>
-            <p class="card-text">React, HTML, CSS, BOOTSTRAP, Firebase authentication, Stripe.js, Firebase Hosting</p>
+            <h5 class="card-title font-weight-bold">
+              Ema-John E-commerce Site
+            </h5>
+            <p class="card-text">
+              React, HTML, CSS, BOOTSTRAP, Firebase authentication, Stripe.js,
+              Firebase Hosting
+            </p>
             <a
               href="https://github.com/akhtar016/ema-john-simple"
               target="_blank"
@@ -532,14 +577,6 @@
           </div>
         </div>
 
-
-
-
-
-
-
-
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -548,7 +585,10 @@
           />
           <div class="card-body text-center">
             <h5 class="card-title font-weight-bold">To Do App with MongoDB</h5>
-            <p class="card-text">NodeJS, ExpressJS and MongoDB, HTML, CSS, BOOTSTRAP, AXIOS, Heroku Hosting.</p>
+            <p class="card-text">
+              NodeJS, ExpressJS and MongoDB, HTML, CSS, BOOTSTRAP, AXIOS, Heroku
+              Hosting.
+            </p>
             <a
               href="https://github.com/akhtar016/todoappwithmongo"
               target="_blank"
@@ -564,9 +604,6 @@
           </div>
         </div>
 
-
-        
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -575,7 +612,9 @@
           />
           <div class="card-body text-center">
             <h5 class="card-title font-weight-bold">Connects</h5>
-            <p class="card-text">React, HTML, CSS, BOOTSTRAP, Netlify Hosting.</p>
+            <p class="card-text">
+              React, HTML, CSS, BOOTSTRAP, Netlify Hosting.
+            </p>
             <a
               href="https://github.com/akhtar016/connects"
               target="_blank"
@@ -590,16 +629,9 @@
             >
           </div>
         </div>
-
-      
-
-   
       </div>
 
-
-
       <div class="card-group container">
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -648,9 +680,6 @@
           </div>
         </div>
 
-
-
-
         <div class="card rounded">
           <img
             class="card-img-top"
@@ -674,10 +703,6 @@
             >
           </div>
         </div>
-
-     
-
-     
       </div>
     </section>
 
@@ -885,7 +910,22 @@
         <small class="text-white">Nayem Khan © <span>2020</span></small>
       </div>
     </footer>
-   
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="font.js"></script>
     <script src="./script.js"></script>
     <script src="./particles.js"></script>
@@ -902,7 +942,5 @@
         }
       }
     </script>
-
-  
   </body>
 </html>
