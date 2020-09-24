@@ -33,6 +33,10 @@ span {
   color: #e92f07;
 }
 
+.padding-10 {
+  padding: 10px;
+}
+
 .btn {
     margin-top: 10px;
 }
